@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell {
+  height: 100px;
+  width: 100px;
+  border: 1px solid grey;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-columns: repeat(2, 100px);
+}
